@@ -71,11 +71,10 @@ WholeEquine::Application.configure do
 
     config.action_mailer.smtp_settings = {
       :address   => "smtp.mandrillapp.com",
-      :port      => 25,
-      :user_name => ENV["MANDRILL_USERNAME"],
-      :password  => ENV["MANDRILL_API_KEY"]
+      :port      => 587,
+      :user_name => "melanie@wholeequine.com",
+      :password  => "AWvr-hHxhGdLjP1rTS4JqA"
     }
-
 
 
   # Log the query plan for queries taking more than this (works
